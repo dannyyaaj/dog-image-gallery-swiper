@@ -9,47 +9,17 @@ body {
   background-color: silver;
 }
 
-.gallery-img {
-  display: none;
-  max-height: 25em;
+.swiper {
+  width: 50em;
+  max-height: 40em;
+  margin-top: 5em;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+img {
   max-width: 25em;
   background-size: cover;
-
-}
-
-.active {
-  display: block;
-  transition: display 3s ease-in-out;
-
-}
-
-.image-gallery {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-}
-
-.btns {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  background-color: #0074d9;
-  color: #fff;
-  font-size: 1.5rem;
-  border-color: transparent;
-  border-radius: 0.25em;
-  cursor: pointer;
-  margin: 0.5em;
-  transition: opacity .75s ease-in-out;
-}
-
-.btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }

@@ -5,30 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jax & Zed Gallery</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="image-gallery">
-      <img src="static/1.jpeg" alt="Jax & Zed" class="gallery-img active" />
-      <img src="static/2.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/3.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/4.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/6.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/7.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/8.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/9.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/10.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/12.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/13.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/14.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/15.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/16.jpeg" alt="Jax & Zed" class="gallery-img" />
-      <img src="static/17.jpeg" alt="Jax & Zed" class="gallery-img" />
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="static/1.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/2.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/3.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/4.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/6.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/7.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/8.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/9.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/10.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/12.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/13.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/14.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/15.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/16.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="static/17.jpeg" alt="Jax & Zed" class="gallery-img" />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
     </div>
-    <div class="btns">
-      <button disabled class="btn prev ">Prev</button>
-      <button class="btn next">Next</button>
-    </div>
-<script src="galllery.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="galllery.js"></script>
   </body>
 </html>
