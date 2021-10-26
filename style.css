@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  background-color: silver;
 }
 
 .gallery-img {
@@ -23,7 +24,6 @@ body {
 }
 
 .image-gallery {
-  background-color: green;
   width: 100%;
   display: flex;
   justify-content: center;
