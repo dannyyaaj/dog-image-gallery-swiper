@@ -10,7 +10,7 @@ body {
 }
 
 .swiper {
-  width: 50em;
+  max-width: 50em;
   max-height: 40em;
   margin-top: 5em;
 }
@@ -22,4 +22,8 @@ body {
 img {
   max-width: 25em;
   background-size: cover;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #fff;
 }
